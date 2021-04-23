@@ -5,4 +5,7 @@ if movies == "yes":
     print("we can watch godzilla vs kong")
     print("we can watch borat")
 else:
-    print("we can watch something else")
+    tvshow=input("do you prefer tv shows ?")
+    if tvshow=="yes":
+        print("we can watch the office")
+        print("we can watch Breaking Bad")
